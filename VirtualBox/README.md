@@ -33,6 +33,49 @@ Ahora ya tenemos creada nuestra máquina.
 
 ![5](.\img\5.png)
 
-
+Si queremos poder compartir bidireccionalmente el portapapeles de la máquina real tanto como de la virtual, debemos ir a Configuración>General y activarlo.
 
 ![6](.\img\6.png)
+
+También, para disfrutar de internet en la máquina virtual debemos habilitar el adaptador puente en Configuración>Red.
+
+![7](.\img\7.png)
+
+Por último, lo más importante. La imagen ISO del sistema operativo que deseamos usar. En este caso he descargado Ubuntu 21.10 a través de https://releases.ubuntu.com/21.10/ y la añadimos como Controlador: IDE.
+
+![8](.\img\8.png)
+
+* **Instalación del S.O**
+
+Tenemos todo listo para iniciar la máquina.
+
+![9](.\img\9.png)
+
+Elegiremos el idioma en el que querramos trabajar.
+
+![10](.\img\10.png)
+
+Elegimos el tipo de instalación, que en este caso lo dejo por defecto.
+
+![11](.\img\11.png)
+
+Instalamos el S.O en el disco que hemos creado anteriormente al generar la VDI.
+
+![12](.\img\12.png)
+
+Nos pedirá reiniciar la máquina tras completarse la instalación.
+
+
+![13](.\img\13.png)
+
+Deberemos retirar la imagen ISO de la máquina, ya que el sistema ha sido instalado correctamente.
+
+![14](.\img\14.png)
+![15](.\img\15.png)
+
+Por último, como recomendación, instalaremos las "Guest Additions" de Virtual Box.
+
+* ¿Qué son las Guest Additions?
+VirtualBox Guest Additions es una colección de controladores de dispositivos y aplicaciones de sistema diseñadas para lograr una mayor integración entre los sistemas operativos host e invitado. Ayudan a mejorar el rendimiento interactivo general y la facilidad de uso de los sistemas invitados. Fácil integración del puntero del mouse.
+
+![16](.\img\16.png)
