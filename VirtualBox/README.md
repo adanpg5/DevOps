@@ -65,7 +65,7 @@ Instalamos el S.O en el disco que hemos creado anteriormente al generar la VDI.
 
 Nos pedirá reiniciar la máquina tras completarse la instalación.
 
-![13](./im/13.png)
+![13](./img/13.png)
 
 Deberemos retirar la imagen ISO de la máquina, ya que el sistema ha sido instalado correctamente.
 
