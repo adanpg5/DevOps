@@ -54,6 +54,10 @@ También, para disfrutar de internet en la máquina virtual debemos habilitar el
 
 La Extensible Firmware Interface (EFI, lit. «interfaz de firmware extensible») fue desarrollada inicialmente por Intel en el 2002. La UEFI puede proporcionar menús gráficos adicionales e incluso proporcionar acceso remoto para la solución de problemas o mantenimiento.
 
+En la configuración de VBox aparece como EFI, pero una vez dentro de la BIOS de la máquina, el sistema boot lo reconoce como **UEFI**.
+
+UEFI (Interfaz de firmware extensible unificada) es el código del firmware de un chip en la placa base que proporciona funciones adicionales a las del sistema de entrada/salida básico (BIOS). UEFI ofrece una manera de hacer cosas con el equipo antes de que se cargue un sistema operativo.
+
 ![18](./img/18.png)
 
 Por último, lo más importante. La imagen ISO del sistema operativo que deseamos usar. En este caso he descargado Ubuntu 21.10 a través de https://releases.ubuntu.com/21.10/ y la añadimos como Controlador: IDE.
