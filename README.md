@@ -1,5 +1,9 @@
 # Virtual BOX - Primeros pasos
 
+* [Instalación y configuración VBox](#id1)
+* [Instalación S.O](#id2)
+* [Guest Additions](#id3)
+
 * **¿Qué es Virtual Box?**
 
 Es un software de virtualización, también denominado hipervisor de tipo 2. Se utiliza para generar virtualizaciones de sistemas operativos dentro de un ordenador físico existente, generándose lo que se conoce como máquinas virtuales.
@@ -10,7 +14,7 @@ Una máquina virtual es un software que simula un sistema de computación y que 
 
 Esencialmente se utiliza para la virtualización de sistemas operativos que no podamos o queramos ejecutar en nuestro equipo informático. Permite trabajar con los sistemas operativos con normalidad, como si los instaláramos en nuestro equipo. Podemos decir que son una caja aislada dentro de nuestro ordenador, nada de dentro saldrá y genera problemas con nuestro equipo principal.
 
-* **Instalación y configuración de nuestra primera máquina.**
+* **Instalación y configuración de nuestra primera máquina.**<a name="id1"></a>
 
 En mi caso, he descargado la herramienta a través de la web oficial (https://www.virtualbox.org/), la versión 6.1
 
@@ -45,7 +49,7 @@ Por último, lo más importante. La imagen ISO del sistema operativo que deseamo
 
 ![8](./img/8.png)
 
-* **Instalación del S.O**
+* **Instalación del S.O**<a name="id2"></a>
 
 Tenemos todo listo para iniciar la máquina.
 
@@ -74,7 +78,7 @@ Deberemos retirar la imagen ISO de la máquina, ya que el sistema ha sido instal
 
 Por último, como recomendación, instalaremos las "Guest Additions" de Virtual Box.
 
-* ¿Qué son las Guest Additions?
+* ¿Qué son las Guest Additions?<a name="id3"></a>
 VirtualBox Guest Additions es una colección de controladores de dispositivos y aplicaciones de sistema diseñadas para lograr una mayor integración entre los sistemas operativos host e invitado. Ayudan a mejorar el rendimiento interactivo general y la facilidad de uso de los sistemas invitados. Fácil integración del puntero del mouse.
 
 ![16](./img/16.png)
