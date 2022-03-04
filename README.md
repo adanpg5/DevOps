@@ -97,3 +97,10 @@ Por último, como recomendación, instalaremos las "Guest Additions" de Virtual 
 VirtualBox Guest Additions es una colección de controladores de dispositivos y aplicaciones de sistema diseñadas para lograr una mayor integración entre los sistemas operativos host e invitado. Ayudan a mejorar el rendimiento interactivo general y la facilidad de uso de los sistemas invitados. Fácil integración del puntero del mouse.
 
 ![16](./img/16.png)
+
+Adicionalmente, podemos utilizar lo siguiente:
+```
+sudo apt-get update 
+sudo apt-get install build-essential gcc make perl dkms 
+reboot
+```
